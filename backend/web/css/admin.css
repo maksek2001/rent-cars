@@ -1,0 +1,137 @@
+.edit-catalog-container {
+    background-color: #f2f2f2;
+    width: 600px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 3;
+}
+
+.action {
+    width: fit-content;
+    padding: 10px;
+    background-color: #e3e3e3;
+    border: 1px solid;
+    color: blue;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    margin-top: 60px;
+}
+
+.info {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.avatar-image {
+    width: 100px;
+    height: auto;
+    margin: 20px;
+}
+
+.rents {
+    width: 60%;
+    margin-left: 2.5% auto;
+    margin: 10px auto;
+    background-color: #f2f2f2;
+}
+
+.panel-info {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 10px;
+}
+
+.info-control {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.edit {
+    margin-left: 40px;
+}
+
+.cancel {
+    color: #580000d8;
+}
+
+.cancel:hover {
+    color: #ff4848;
+}
+
+.right-info {
+    text-align: right;
+    width: 20%;
+}
+
+.left-info {
+    width: 80%;
+}
+
+.base-rent-block{
+    width: 100%;
+    text-align: center;
+}
+
+.filter-block{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.inner-filter-block-left{
+    text-align: center;
+    width: 35%;
+}
+
+.inner-filter-block-right{
+    text-align: center;
+    width: 60%;
+}
+
+.filter-block .form-control{
+    margin: 0 10px;
+}
+
+.filter-price{
+    display: inline-flex;
+}
+
+.filter{
+    margin: 20px 0;
+}
+
+.hide{
+    display: none;
+}
+
+.client-info{
+    margin-left: 15px;
+}
+
+.client-info .text{
+    font-size: 14px;
+}
+
+.client-info-main{
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: #eaeaea;
+    margin: 7px 10px;
+}
+
+.info-header{
+    font-size: 16px;
+    margin-bottom: 2px;
+}

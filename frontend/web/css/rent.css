@@ -1,0 +1,50 @@
+.arenda-car {
+    margin-top: 10px;
+    background-color: #ffffffbf;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.price {
+    font-size: 16px;
+}
+
+.date {
+    font-size: 16px;
+}
+
+.rent {
+    width: auto;
+}
+
+.total-price {
+    background-color: #e2e2e2;
+    border: 1px solid;
+    padding: 10px;
+    margin: 10px 0px 10px 30px;
+}
+
+.rent {
+    margin: 10px;
+}
+
+.form-label {
+    width: 20%;
+    text-align: left;
+}
+
+.form-group{
+    margin-bottom: 0.5rem;
+}
+
+.rent-input {
+    width: 250px;
+}
+
+.alert-success{
+    color: #155724;
+    background-color: #b6ffc7;
+    border-color: #72ff92;
+    width: 555px;
+    margin: 11px auto;
+}

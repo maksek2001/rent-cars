@@ -1,0 +1,35 @@
+/* Стиль для скролла*/
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: auto;
+}
+
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0080ff;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+    background: linear-gradient(#240669, #3809a7);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #104ddc;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #104ddc;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+    border: 0px none #ffffff;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}

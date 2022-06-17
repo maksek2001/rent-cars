@@ -1,0 +1,84 @@
+.office-container {
+    width: 100%;
+    line-height: 1.5;
+    margin: 0px auto;
+    padding: 5px;
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.info{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.avatar-image {
+    width: 100px;
+    height: auto;
+    margin: 20px;
+}
+
+.user-info {
+    width: 47.5%;
+    margin-right: 2.5%;
+}
+
+.block-info {
+    padding: 20px;
+    text-align: justify;
+    border-radius: 5px;
+}
+
+.user-rents {
+    width: 47.5%;
+    margin-left: 2.5%;
+}
+
+.avatar-img {
+    width: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.panel-info {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.rent-info {
+    margin: 5px;
+    width: 240px;
+}
+
+.info-control {
+    width: 100%;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+
+.edit {
+    margin-left: 40px;
+}
+
+.cancel {
+    color: #580000d8;
+}
+
+.cancel:hover{
+    color: #ff4848;
+}
+
+.right-info {
+    text-align: right;
+    width: 20%;
+}
+
+.left-info {
+    width: 80%;
+}

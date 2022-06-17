@@ -1,0 +1,101 @@
+.shop-left {
+    position: fixed;
+    border-radius: 10px;
+    line-height: 10px;
+    z-index: 10;
+    width: 20%;
+    margin: 10px 10px 10px 0;
+    height: fit-content;
+    background-color: #000f5d85;
+    font-size: var(--text-size);
+    font-family: var(--font-family);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav button {
+    display: block;
+    text-decoration: none;
+    outline: none;
+}
+
+.topmenu {
+    margin: 20px;
+}
+
+.topmenu>li {
+    display: inline-flex;
+    position: relative;
+}
+
+.topmenu>li>p {
+    height: 30px;
+    line-height: 30px;
+    padding: 0px 5px;
+    font-size: var(--text-size);
+    font-weight: bolder;
+    color: #a5a5a5;
+    border-radius: 2px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.down:after {
+    margin-left: 8px;
+}
+
+.topmenu li p:hover {
+    cursor: pointer;
+    color: #db5a03;
+    text-decoration: underline;
+}
+
+.topmenu li .action:hover {
+    cursor: pointer;
+    color: #db5a03;
+    text-decoration: underline;
+}
+
+.submenu {
+    background: white;
+    border-radius: 2px;
+    position: absolute;
+    left: 200px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    width: auto;
+    transform: perspective(650px) rotateX(-90deg);
+    transform-origin: 50% 50%;
+    transition: .6s ease-in-out;
+}
+
+.topmenu>li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+    transform: perspective(600px) rotateX(0deg);
+}
+
+.submenu li .action {
+    color: #a5a5a5;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 210px;
+    white-space: nowrap;
+    height: 40px;
+    text-align: left;
+    font-weight: bolder;
+    padding: 15px 10px 10px;
+    margin: 0.5px;
+}
+
+.menu-a{
+    display: inline-flex;
+    background: linear-gradient(#130c39, #03041f);
+    padding-left: 10px;
+    border: 1px solid #fff;
+}
