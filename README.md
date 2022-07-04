@@ -3,6 +3,7 @@
 
 В данной системе присутствует пользовательская часть и панель администратора:
   Пользовательская часть:
+
     1. Главная страница
     ![image](https://user-images.githubusercontent.com/63721828/165763257-277ac5f9-aa13-440d-b126-cde1a2849e26.png)
     2. Каталоги и вложенные подкаталоги
@@ -14,6 +15,7 @@
     ![image](https://user-images.githubusercontent.com/63721828/165764313-92cfbb57-04e7-408a-9622-7436b0789b64.png)
     ![image](https://user-images.githubusercontent.com/63721828/165763834-35652050-8ca6-4bc6-9f6e-c53350d0a817.png)
   Панель администратора:
+
     1. Авторизация
     ![image](https://user-images.githubusercontent.com/63721828/165764393-992c96b4-1241-4e77-8f45-fc2e294c7322.png)
     2. Управление заказами
