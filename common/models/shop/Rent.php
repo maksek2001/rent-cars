@@ -42,6 +42,7 @@ class Rent extends \yii\db\ActiveRecord
         return $rent->save(false);
     }
 
+    
     public static function getAllActiveRentsForCarByPeriod($startDate, $endDate, $car_id): array
     {
         $sql = "SELECT * FROM
@@ -56,7 +57,7 @@ class Rent extends \yii\db\ActiveRecord
                 WHERE 
                     car_id = :car_id AND status = 'active'";
 
-        return self::findBySql($sql, [
+        return static::findBySql($sql, [
             ':startDate' => $startDate,
             ':endDate' => $endDate,
             ':car_id' => $car_id
