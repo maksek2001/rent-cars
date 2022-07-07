@@ -60,7 +60,7 @@ class Rent extends \yii\db\ActiveRecord
             ':startDate' => $startDate,
             ':endDate' => $endDate,
             ':car_id' => $car_id
-        ])->asArray()->all();
+        ])->all();
     }
 
     public function create(): bool

@@ -91,7 +91,7 @@ class RentForm extends Model
     private function isVipInRents($rents): bool
     {
         foreach ($rents as $rent)
-            if (User::findOne($rent['client_id'])->vip)
+            if (User::findOne($rent->client_id)->vip)
                 return true;
 
         return false;
@@ -123,7 +123,7 @@ class RentForm extends Model
     private function updateStatuses($rents)
     {
         foreach ($rents as $rent)
-            Rent::updateStatus($rent['id'], 'canceled_by_vip');
+            Rent::updateStatus($rent->id, 'canceled_by_vip');
         // здесь можно сделать рассылку для пользователей
     }
 
