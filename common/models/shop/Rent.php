@@ -56,7 +56,7 @@ class Rent extends \yii\db\ActiveRecord
                 WHERE 
                     car_id = :car_id AND status = 'active'";
 
-        return Car::findBySql($sql, [
+        return self::findBySql($sql, [
             ':startDate' => $startDate,
             ':endDate' => $endDate,
             ':car_id' => $car_id
